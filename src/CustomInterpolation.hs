@@ -2,9 +2,6 @@
 This module reexports all the relevant tools of the @custom-interpolation@ package.
 -}
 module CustomInterpolation (
-  -- * Quickstart
-  -- $quickstart
-
   -- * Template Haskell
   --
   -- | The main entry points of the library. Use these to build your template haskell functions and quasiquoters.

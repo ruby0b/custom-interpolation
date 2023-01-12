@@ -1,6 +1,6 @@
 cabal-version:      3.0
 name:               custom-interpolation
-version:            0.1.0.0
+version:            0.1.0.1
 synopsis:           Customizable string interpolation quasiquoters
 description:
   Please see the readme at https://github.com/ruby0b/custom-interpolation#readme.
