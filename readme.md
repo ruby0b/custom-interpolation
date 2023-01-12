@@ -26,7 +26,7 @@ i = interpolateQQ simpleConfig
 ```
 
 ```hs
->>> [i|2^10 = {show (2 ^ 10)}. Some Fibonacci numbers: @{let x = (\fibs -> 1 : 1 : zipWith (+) fibs (tail fibs)) x in x}.|]
+>>> [i|2^10 = {show (2 ^ 10)}. Some Fibonacci numbers: @{let fibs = 1 : 1 : zipWith (+) fibs (tail fibs) in fibs}.|]
 "2^10 = 1024. Some Fibonacci numbers: [1,1,2,3,5,8,13,21,34,55]."
 ```
 
