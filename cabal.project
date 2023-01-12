@@ -1,0 +1,5 @@
+packages: .
+-- needed for doctest-parallel
+write-ghc-environment-files: always
+-- disable doctests for hackage builds (https://github.com/martijnbastiaan/doctest-parallel/issues/22)
+flags: +doctests
