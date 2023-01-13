@@ -14,7 +14,7 @@ data InterpolationConfig a = InterpolationConfig
     handlers :: [Interpolator a],
     -- | Used for complex 'Interpolator's that return additional values. Reduces these accumulated values to a single @'Q' 'Exp'@.
     finalize :: ([a], Q Exp) -> Q Exp,
-    -- | Handle backslash-escaped characters (can be used to add special characters like \n).
+    -- | Handle backslash-escaped characters (can be used to add escape sequences like @\\n@).
     escape :: Char -> Char
   }
 
